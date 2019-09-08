@@ -1,0 +1,37 @@
+# Psychological Experiment
+
+The psychological experiment is a n-back tast.
+It consists of the occurence of one number (from 0 to 9)
+And the subject has to judge if two consecutive numbers are even or odd. 
+The subject has to press "E" if YES and "O" if NO. 
+
+
+# Block Design 
+
+The task is composed of two differents blocks:
+
+A ==> The subject has to answer when two numbers are separated with another one 
+  ==> example ==> 3-4-5 ==> 3 and 5 are both odd   ==> answer should be YES
+  ==> example ==> 3-4-6 ==> 3 is odd and 6 is even ==> answer should be NO
+  
+B ==> The subject has to answer when two numbers are separated with two numbers 
+  ==> example ==> 3-4-5-9 ==> 3 and 9 are both odd   ==> answer should be YES
+  ==> example ==> 3-4-6-8 ==> 3 is odd and 8 is even ==> answer should be NO  
+  
+# Task Design 
+  
+The task is composed of 2x2 blocks:
+
+A ==> B ==> A ==> B 
+
+It is possible to change the position and numbers of blocks and the stimulus duration. 
+
+
+
+ # Output
+ 
+ The output consists of:
+    - Type of blocks
+    - Accuracy
+    - Response-Time
+    - Stimulus duration
